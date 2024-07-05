@@ -1,0 +1,79 @@
+{
+    "header": [
+        "Course Name",
+        "Description",
+        "Skills"
+    ],
+    "rows": [
+        {
+            "Course Name": "UI Developer",
+            "Description": "Convert figma designs into web pages, and make sure that everything is responsive.",
+            "Skills": "HTML, CSS, Git, GitHub, Figma"
+        },
+        {
+            "Course Name": "JavaScript Frontend Developer",
+            "Description": "Fix frontend related bugs and add new features to the website.",
+            "Skills": "HTML, CSS, JavaScript, Git, GitHub"
+        },
+        {
+            "Course Name": "React.js Developer",
+            "Description": "Fix frontend related bugs and add new features to the website.",
+            "Skills": "HTML, CSS, JavaScript, React, Git, GitHub"
+        },
+        {
+            "Course Name": "Data Analyst",
+            "Description": "You will be given a small dataset and a set of questions to answer using that data. You will be expected to use your data analysis skills to answer the questions and present your findings in a clear and concise manner.",
+            "Skills": "Python, Numpy, Pandas, Data Cleaning in Python, Data Visualization, Basic Knowledge of Statistics"
+        },
+        {
+            "Course Name": "UI/UX Designer",
+            "Description": "Turn ideas into UI/UX designs, and redesign existing websites.",
+            "Skills": "Design Tools, UI Design, UX Design"
+        },
+        {
+            "Course Name": "Mobile Developer",
+            "Description": "Convert UI/UX figma designs into fully functional mobile applications.",
+            "Skills": "Dart, Java, Kotlin, React Native, or any alternative, Git, GitHub, Figma"
+        },
+        {
+            "Course Name": "Console Programmer",
+            "Description": "Build console applications with your favorite programming language to solve certain problems.",
+            "Skills": "C++, Python, C, C#, Java, or any programming language"
+        },
+        {
+            "Course Name": "Web Scraping Specialist",
+            "Description": "Write programs that can harvest/extract data from certain websites.",
+            "Skills": "JavaScript, Python, or any programming language"
+        },
+        {
+            "Course Name": "Graphic Designer",
+            "Description": "Design logos, banners, and social media posts.",
+            "Skills": "Photoshop, Pixlr, Adobe Spark, or any design tool"
+        },
+        {
+            "Course Name": "Backend Developer",
+            "Description": "Build backend services, connect to databases, and integrate with APIs.",
+            "Skills": "PHP & Laravel, Python & Django, C# & .Net, JavaScript & Express, or any tech stack"
+        },
+        {
+            "Course Name": "AI Engineer",
+            "Description": "Use certain general algorithms to build some simple artificial intelligence solutions.",
+            "Skills": "Python, C#, JavaScript, or any programming language"
+        },
+        {
+            "Course Name": "Image Processing Engineer",
+            "Description": "Use your favourite programming language to write programs that manipulate images.",
+            "Skills": "Python, C#, JavaScript, or any programming language"
+        },
+        {
+            "Course Name": "ML Engineer",
+            "Description": "You will be given a dataset and asked to build a machine learning model that can predict some missing properties, or classify something depending on the data included in the given dataset.",
+            "Skills": "Python, or any alternative"
+        },
+        {
+            "Course Name": "CV Engineer",
+            "Description": "You will be using what you have leant about computer vision to solve real-world problems such as detecting objects, manipulating them, and classifying them.",
+            "Skills": "Python, C++, or any alternative"
+        }
+    ]
+}

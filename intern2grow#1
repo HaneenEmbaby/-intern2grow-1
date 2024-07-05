@@ -1,0 +1,36 @@
+from bs4 import BeautifulSoup
+from selenium import webdriver
+import json
+
+url = 'https://intern2grow.pages.dev/programs'
+driver = webdriver.Chrome()
+driver.get(url)
+page = driver.page_source
+
+soup = BeautifulSoup(page,'html.parser')
+courses = []
+skills = []
+programs = soup.find_all('div', class_='programs_programWrapper__7HVj9')
+
+
+for program in programs:
+    name = program.find('h3').text
+    description = program.find('p').text
+    skills_container = program.find('div', class_= 'programs_programWrapperSkillsContainer__YLUIt')
+    if skills_container:
+        skill_element = skills_container.find_all('span', class_='programs_programWrapperSkillWrapper__kGKoP')
+        skills = ', '.join([skill.text for skill in skill_element])
+
+
+    print(name + ' : ' + description + ' : ' + skills)
+    courses.append({'Course Name': name, 'Description': description, 'Skills': skills})
+driver.quit()
+
+
+data = {
+    "header": ["Course Name", "Description", "Skills"],
+    "rows": courses
+}
+
+with open('Intern2Grow.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
